@@ -1,0 +1,16 @@
+.header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  &__logo {
+    a {
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
+}

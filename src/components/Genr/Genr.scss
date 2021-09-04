@@ -1,0 +1,15 @@
+.genr__item {
+  &-img {
+    background: #878787;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    img {
+      display: block;
+      width: 180px;
+      height: 250px;
+      margin-bottom: 18px;
+      object-fit: contain;
+    }
+  }
+}

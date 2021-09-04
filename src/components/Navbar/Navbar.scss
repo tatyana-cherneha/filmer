@@ -1,0 +1,27 @@
+.nav {
+  grid-area: nav;
+  &__list {
+    padding: 0 15px 20px 15px;
+    li {
+      margin: 12px 0;
+      a {
+        color: #878787;
+        text-transform: capitalize;
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px;
+        width: 150px;
+        border: 1px solid #1a1a1a;
+
+        &.active,
+        &:hover{
+        color: #ffffff;
+        border: 1px solid #f87502;
+        border-radius: 5px;
+        }
+      }
+    }
+  }
+}

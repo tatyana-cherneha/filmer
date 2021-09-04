@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  font-family: Google Sans, Roboto, arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  background: #1a1a1a;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+textarea,
+::placeholder {
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+}
+
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+
+  grid-template-areas:
+    'header header header'
+    'nav content content';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.content {
+  grid-area: content;
+  margin-top: 30px;
+}
